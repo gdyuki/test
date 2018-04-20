@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body{
+  margin: 30px;
+}
+
+header{
+  width: 100%;
+  height: 100%;
+  font-size: 70px;
+  background-image: url(../images/DSC_0557.JPG);
+  background-size: cover;
+  background-position: top;
+}
+header .Header{
+  padding-top: 150px;
+  padding-bottom: 20px;
+  margin-left: 100px;
+}
+header p {
+  padding-left: 300px;
+  background-color: rgba(255, 255,  255, 0.5);
+}
+
+nav{
+  width: 30%;
+  margin-right: 2%;
+  margin-top: 30px;
+  opacity: 0.75;
+  float: left;
+}
+nav img{
+  width: 100%;
+}
+nav ul li a{
+  display: block;
+  background-color: grey;
+  font-size: 30px;
+  color: white;
+}
+nav ul li a:hover{
+  display: block;
+  background-color: black;
+}
+nav p{
+  padding: 10px;
+  padding-left:80px;
+}
+nav .Outsidelink{
+  margin-top: 100px;
+}
+nav .Outsidelink #logo{
+  display: block;
+  margin: 30px;
+  width: 30%;
+}
+nav .Outsidelink #saval{
+  display: block;
+  width: 50%;
+}
+
+.Article{
+  background-color: white;
+  margin-left: 2%;
+  margin-top: 30px;
+  width: 64%;
+  float: left;
+}
+.Article div{
+  margin: 50px 0;
+  font-size: 30px;
+}
+.Article h2{
+  margin: 50px auto;
+  font-size: 50px;
+  border-bottom: solid 3px black;
+}
+.Article p{
+  padding: 30px;
+}
+.Article ul{
+  list-style:none;
+  padding: 30px;
+}
+.Article ul li{
+  padding: 20px;
+}
+.Article img{
+  width: 50%;
+  padding: 30px;
+}
+
+footer{
+  clear:both;
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+
+}
